@@ -1,61 +1,73 @@
 header {
-    width: 100%;
-    position: fixed;
-    background-color: white;
-    box-shadow: rgba(11, 28, 43, 0.25) 0px 0px 10px 0px;
-    z-index: 1000;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  box-shadow: rgba(11, 28, 43, 0.25) 0px 0px 10px 0px;
+  padding: 0 var(--padding-content);
+  z-index: 1000;
 }
 
 header .header-content {
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-    padding: 0 var(--padding-content);
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
 }
 
 header .logo {
-    font-size: 24px;
-    color: #585b64;
-    font-weight: bold;
-    cursor: pointer;
+  font-size: 24px;
+  color: #585b64;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 header ul {
-    height: inherit;
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  height: inherit;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 header ul li {
-    margin-left: 30px;
-    color: #858997;
-    font-size: 16px;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
+  margin-left: 30px;
+  color: #858997;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.nav-link {
+  color: #858997;
+}
+
+.nav-link:hover,
+.nav-link.active:hover {
+  color: #cf7814;
+}
+
+.wallet:hover {
+  color: rgb(12, 88, 175);
+  transition: all 0.5s ease;
+}
+
+.nav-link.active {
+  color: rgb(66, 169, 233);
 }
 
 header ul .split {
-    width: 1px;
-    height: 15px;
-    border-left: 1px solid rgb(175, 175, 175);
+  width: 1px;
+  height: 15px;
+  border-left: 1px solid rgb(175, 175, 175);
 }
 
 header ul .wallet {
-    font-size: 28px;
+  font-size: 28px;
 }
 
-header ul li:hover {
-color: coral;
-transition: all 0.5s ease;
+.split {
+  pointer-events: none;
 }
-
-.goto {
-    color: rgb(66, 169, 233);
-}
-  

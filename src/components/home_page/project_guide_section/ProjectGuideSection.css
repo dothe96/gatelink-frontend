@@ -1,0 +1,95 @@
+.project-guide-section {
+  background-color: white;
+}
+
+.guide-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.steps {
+  position: relative;
+  width: 100%;
+  max-width: 20em;
+  background: white;
+  padding: 0.5em;
+  z-index: 1;
+  transition: all 0.2s;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.number-wrap {
+  position: absolute;
+}
+
+.number-step.font-color1 {
+  color: blueviolet;
+}
+
+.number-wrap .number-step {
+  font-family: "maven pro", sans-serif;
+  font-size: 11em;
+  font-weight: 900;
+  width: 0.9em;
+  text-align: center;
+}
+
+.cover-wrap {
+  transform: rotate(125deg);
+  position: absolute;
+  width: 18em;
+  height: 15em;
+  left: -3em;
+  top: -1em;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.cover-wrap .number-cover {
+  position: absolute;
+  background: white;
+  width: 18em;
+  height: 6em;
+  border-radius: 50% 50% 0 0;
+  border-bottom: 3px solid #f5f8f7;
+  transition: all 0.4s;
+}
+
+.step-content {
+  margin: 8em 1em 1em 7em;
+  position: relative;
+}
+
+.step-content h2 {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.step-content p {
+  color: rgb(136, 136, 136);
+}
+
+.number-cover::before {
+  position: absolute;
+  content: "";
+  bottom: 5px;
+  left: 4em;
+  right: 4em;
+  top: 5em;
+  box-shadow: 0 0 30px 17px #48668577;
+  border-radius: 100px/10px;
+  z-index: -1;
+}
+
+.number-cover::after {
+  position: absolute;
+  bottom: 0;
+  content: "";
+  left: -10%;
+  width: 120%;
+  height: 150%;
+  background: radial-gradient(at bottom, #48668533, transparent, transparent);
+  z-index: 1;
+}
