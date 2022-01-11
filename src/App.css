@@ -2,6 +2,7 @@
   --primary-color: #3e2d86;
   --contrast-color: #858997;
   --padding-content: 5%;
+  --header-height: 60px;
 }
 
 * {

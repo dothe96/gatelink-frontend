@@ -1,0 +1,76 @@
+.projects-page-wrapper {
+    padding: 0 var(--padding-content);
+}
+
+.projects-page-content {
+    padding-top: var(--header-height);
+}
+
+.project-page-tile-area {
+    margin-top: 20px;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.project-page-title {
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(44, 44, 44);
+}
+
+.project-page-statistic {
+    font-size: 18px;
+    color: rgb(146, 146, 146);
+}
+
+.projects-filter {
+    width: 100%;
+    border-bottom: 1px solid rgba(138, 138, 138, 0.35);
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.projects-filter .filter-tabs {
+    padding: 0;
+    margin: 5px;
+    display: flex;
+}
+
+.projects-filter .filter-tabs li {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--contrast-color);
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.input-search {
+    width: 280px;
+    font-size: 15px;
+    height: 30px;
+    padding: 0 8px;
+    border: 1px solid rgb(229, 232, 235);
+    border-radius: 5px;
+}
+
+.input-search:focus {
+    color: rgb(117, 117, 117);
+    box-shadow: rgb(4, 17, 29, 25%) 0 0 5px 0;
+    border: 1px solid rgb(229, 232, 235);
+    outline: none;
+}
+
+/* ---------------------------
+Projects grid*/
+
+.no-projects {
+    color:rgb(146, 146, 146);
+    font-size: 40px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -12,7 +12,7 @@ header {
 }
 
 header .header-content {
-  height: 60px;
+  height: var(--header-height);
   display: flex;
   align-items: center;
   justify-content: space-between;

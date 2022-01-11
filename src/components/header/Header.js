@@ -42,7 +42,7 @@ function Header() {
   }
 
   const onAccountChange = (accounts, balance) => {
-    if (accountInfo.address !== accounts[0]) {
+    if (accountInfo.address !== accounts[0] && accountInfo.address !== "0x") {
       updateWeb3().then(() => {
         setConnectState("updated");
         toast.info("Changed account to " + shortenAddress(accounts[0]));
