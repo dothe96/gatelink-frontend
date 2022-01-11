@@ -9,13 +9,13 @@ class ProjectGuideSection extends Component {
           <div className="section-title">Create assets for your games</div>
           <div className="guide-content">
             <div className="steps">
-              <div class="number-wrap">
-                <div class="number-step font-color1">1</div>
-                <div class="cover-wrap">
-                  <div class="number-cover"></div>
+              <div className="number-wrap">
+                <div className="number-step font-color1">1</div>
+                <div className="cover-wrap">
+                  <div className="number-cover"></div>
                 </div>
               </div>
-              <div class="step-content">
+              <div className="step-content">
                 <h2>Set up Metamask</h2>
                 <p>
                   Sagittis, audantium sem eveniet lacus pede porttitor aenean.
@@ -23,13 +23,13 @@ class ProjectGuideSection extends Component {
               </div>
             </div>
             <div className="steps">
-              <div class="number-wrap">
-                <div class="number-step font-color1">2</div>
-                <div class="cover-wrap">
-                  <div class="number-cover"></div>
+              <div className="number-wrap">
+                <div className="number-step font-color1">2</div>
+                <div className="cover-wrap">
+                  <div className="number-cover"></div>
                 </div>
               </div>
-              <div class="step-content">
+              <div className="step-content">
                 <h2>Set up Metamask</h2>
                 <p>
                   Sagittis, audantium sem eveniet lacus pede porttitor aenean.
@@ -37,13 +37,13 @@ class ProjectGuideSection extends Component {
               </div>
             </div>
             <div className="steps">
-              <div class="number-wrap">
-                <div class="number-step font-color1">3</div>
-                <div class="cover-wrap">
-                  <div class="number-cover"></div>
+              <div className="number-wrap">
+                <div className="number-step font-color1">3</div>
+                <div className="cover-wrap">
+                  <div className="number-cover"></div>
                 </div>
               </div>
-              <div class="step-content">
+              <div className="step-content">
                 <h2>Set up Metamask</h2>
                 <p>
                   Sagittis, audantium sem eveniet lacus pede porttitor aenean.

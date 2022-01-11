@@ -1,5 +1,5 @@
 footer {
-  background-color: #483d8b;
+  background-color: var(--primary-color);
   padding: 25px var(--padding-content) 5px;
   color: rgb(221, 221, 221);
 }
@@ -44,7 +44,7 @@ footer {
 
 .footer-menu {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-bottom: 5px;
   border-bottom: 1px solid rgba(207, 207, 207, 0.25);
 }

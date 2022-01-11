@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #0b0c26;
-  --primary-color-alpha: #0b0c26dd;
+  --primary-color: #3e2d86;
+  --contrast-color: #858997;
   --padding-content: 5%;
 }
 
@@ -35,7 +35,7 @@ a {
 }
 
 .hide {
-  display: none;
+  display: none !important;
 }
 
 .section-layout {
@@ -54,4 +54,11 @@ a {
 
 ul {
   list-style: none;
+}
+
+.card-view {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 3px 20px rgba(0,0,0,0.25), 0 3px 6px rgba(0,0,0,0.23);
+  border-radius: 5px;
+  padding: 10px 0;
 }

@@ -4,6 +4,7 @@ import Header from "./components/header/Header";
 import HomePage from "./components/home_page/Homepage";
 import ProjectsPage from "./components/projects_page/Projects";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Toastify from "./utils/Toastify";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route exact path="/projects" element={<ProjectsPage />} />
         </Routes>
         <Footer />
+        <Toastify />
       </div>
     </Router>
   );
